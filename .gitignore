@@ -1,18 +1,22 @@
-# Directories that Ren'Py changes files in.
+# ===============================================
+# Ren'Py Generated Files
+# ===============================================
+
+# Directories that Ren'Py changes files in
 /game/saves
 /game/cache
 
-# Compiled script files. These are important for saving, and so should
-# be preserved by developer and build systems after the game has been released.
+# Compiled script files
 /game/**/*.rpyc
 /game/**/*.rpymc
+*.rpyb
 
-# Files Ren'Py can generate.
+# Files Ren'Py can generate
 /game/**/*.bak
 /game/**/*.new
 /game/**/*.old
 
-# Error, log, and output files.
+# Error, log, and output files
 /errors.txt
 /files.txt
 /image_cache.txt
@@ -20,7 +24,80 @@
 /save_dump.txt
 /traceback.txt
 
-# Launcher-generated files.
+# Launcher-generated files
 /dialogue.tab
 /dialogue.txt
 /strings.json
+
+# ===============================================
+# Development & IDE Files
+# ===============================================
+
+# VS Code / Cursor
+.vscode/
+.cursor/
+*.code-workspace.user
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===============================================
+# Asset Development Files
+# ===============================================
+
+# Blender backup files
+*.blend1
+*.blend2
+
+# Krita backup files
+*~
+*.kra~
+
+# Large source files (keep originals in asset repo)
+# Uncomment if you track source assets separately
+# *.psd
+# *.blend
+# *.kra
+# *.xcf
+
+# ===============================================
+# Distribution & Build Files
+# ===============================================
+
+# Build outputs
+*.app
+*.dmg
+*.pkg
+*.exe
+*.zip
+*.tar.bz2
+
+# Temporary build directory
+tmp/
+build/
+
+# ===============================================
+# Miscellaneous
+# ===============================================
+
+# Notes and TODO files (if personal)
+# TODO.md
+# NOTES.md
+
+# Environment files
+.env
+.env.local

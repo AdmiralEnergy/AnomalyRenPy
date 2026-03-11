@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "Anomaly"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/*.rpyc": true,
+			"**/*.rpymc": true,
+			"**/*.bak": true,
+			"game/saves/": true,
+			"game/cache/": true,
+			"errors.txt": true,
+			"log.txt": true,
+			"traceback.txt": true
+		},
+		"files.associations": {
+			"*.rpy": "renpy"
+		},
+		"editor.tabSize": 4,
+		"editor.insertSpaces": true,
+		"editor.detectIndentation": false
+	},
+	"extensions": {
+		"recommendations": [
+			"LuqueDaniel.languague-renpy",
+			"tomoki1207.pdf"
+		]
+	}
+}
